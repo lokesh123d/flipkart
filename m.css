@@ -1,0 +1,334 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body{
+        background-color: #f1f2f4;
+width: 100%;
+
+}
+
+.navbar {
+    display: flex;
+    height: 25vh;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+width: auto;}
+
+.nav-right {
+    width: 83vw;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 30px;
+}
+
+.searchbar input {
+    border: 2px solid #f0f5ff;
+    width: 35vw;
+    height: 6vh;
+    background-color: #f0f5ff;
+    border-radius: 6px;
+
+
+}
+input[type="text"]:focus{
+    
+  outline: none;
+}
+
+
+.searchbar {
+    background-color: #f0f5ff;
+    padding-left: 9px;
+    border-radius: 6px;
+}
+
+.nav-right span{
+    font-size: 1.2rem;
+}
+.nav-media{
+    margin-left: 20px;
+    margin-top: 7px;
+    font-size: 15px;
+}
+.nav-media .p2{
+    color: blue;
+}
+.input-media {
+    width: 90vw;
+    display: flex;
+    padding: auto;
+    margin: auto;
+border:2px solid blue;
+border-radius: 7px;
+margin-top: 10px;
+
+}
+.input-media input{
+    width: 90vw;
+    height: 5vh;
+    border-radius: 7px;
+    border: none;
+
+}
+.input-media input:focus{
+    outline: none;
+}
+.input-media i{
+    padding: 10px;
+}
+.media-hidden {
+    display: none;
+}
+
+slider {
+  width: 100%;
+  max-width: 200px;
+  height: 200px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.slide-track {
+  display: flex;
+  width: calc(390px * 8); 
+  animation: scroll 40s linear infinite;
+}
+
+.slide {
+  width: 300px;
+  padding: 10px;
+}
+
+.slide img {
+  height: 200px;
+  object-fit: cover;
+border-radius: 5px;
+width: 100%;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.heroproduct {
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+margin: 20px 90px;
+    height: 12vh;
+    background-color: white;
+    border-radius: 5px;
+        color: black;
+        margin-bottom: 10px;
+
+}
+.hitem img{
+    height: 7vh;
+    margin-top: -10px;
+}
+.hitem {
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1030px) {
+    #shop{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:706px) {
+    .searchbar {
+        display: none;
+    }
+    .media-hidden{
+        display: block;
+    }
+
+    body{
+        background-color: white;
+    }
+}
+
+@media screen and (max-width:494px) {
+    .navbar{
+        padding: 0;
+        margin-left: -30px;
+        padding-right:10px ;
+    }
+}
+@media  screen and (max-width:387px) {
+    .cart span{
+        display: none;
+    }
+    .loginfull .dimg{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+  .heroproduct {
+    margin: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2></h2>
+     <div class="grid1">
+        <div class="grid-item11">
+            <img src="grid1.webp" alt="grid1">
+            <span>₹1,19,900</span>
+        </div>
+        <div class="grid-item12">
+            <img src="grid2.webp" alt="grid2">
+            <span>₹1,24,999</span>
+        </div>
+        <div class="grid-item13">
+            <img src="grid3.webp" alt="grid3">
+            <span>₹33,999</span>
+        </div>
+        <div class="grid-item14">
+            <img src="grid4.webp" alt="grid4">
+            <span>₹18,999</span>
+        </div>
+         <div class="grid-item11">
+            <img src="grid1.webp" alt="grid1">
+            <span>₹1,19,900</span>
+        </div>
+        <div class="grid-item12">
+            <img src="grid2.webp" alt="grid2">
+            <span>₹1,24,999</span>
+        </div>
+        <div class="grid-item13">
+            <img src="grid3.webp" alt="grid3">
+            <span>₹33,999</span>
+        </div>
+        <div class="grid-item14">
+            <img src="grid4.webp" alt="grid4">
+            <span>₹18,999</span>
+        </div>
+        <div class="grid-item14">
+            <img src="grid4.webp" alt="grid4">
+            <span>₹18,999</span>
+        </div>
+     </div>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
